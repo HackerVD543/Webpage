@@ -41,10 +41,10 @@ and open the template in the editor.
         </div>
 
         <script>
-            
-            
+
+
             //save Student Function
-            
+
             function saveStud() {
                 var jsonStr = validateAndGetFormData();
                 if (jsonStr === "") {
@@ -91,7 +91,7 @@ and open the template in the editor.
                 return JSON.stringify(jsonStrObj);
             }
 
-            
+
             //Create Put Request Function
 
             // This method is used to create PUT Json request.
@@ -112,7 +112,7 @@ and open the template in the editor.
                 return putRequest;
             }
 
-            
+
             //Execute Command Function
 
 //            function executeCommand(reqString, dbBaseUrl, apiEndPointUrl) {
@@ -128,7 +128,7 @@ and open the template in the editor.
 //            }
 //            
             //Reset form function
-            
+
             function resetForm() {
                 $("#studId").val("")
                 $("#studName").val("");
